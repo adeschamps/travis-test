@@ -2,4 +2,3 @@ script:
   - echo "Hello, world!"
   - env
   - echo "The secret value is $SECRET_VARIABLE"
-  - echo $SECRET_VARIABLE | sed 's/./\0_/g'
